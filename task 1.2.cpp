@@ -1,5 +1,6 @@
-﻿// task 1.2.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+//Даны вещественные x1, x2, x3, x4. Поменять значения переменных так, чтобы
+//x1 > x2 > x3 < x4
+
 
 #include <iostream>
 using namespace std;
@@ -13,11 +14,11 @@ int main()
     a = ((0 <= x) && (x <= 2 * R) && (0 <= y) && (y <= 2 * R) && (x * x + y * y >= R * R));
     if (b || a)
     {
-        cout << "tochka vxodit";
+        cout << "point is icluded";
     }
     else
     {
-        cout << "tochka ne vxodit";
+        cout << "point is not icluded";
     }
 }
 
